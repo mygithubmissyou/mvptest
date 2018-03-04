@@ -57,7 +57,7 @@ public class IpInfoTask implements NetTask<String> {
     public void execute(String ip, final LoadTaskCallBack callback) {
         RequestParams params = new RequestParams();
         params.addFormDataPart("ip", ip);
-//
+
 //        OkHttpClient okHttpClient=new OkHttpClient.Builder().build();
 //        Request request=new Request.Builder().url(HOST).build();
 //        okHttpClient.newCall(request).enqueue(new Callback() {
